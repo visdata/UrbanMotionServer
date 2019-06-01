@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="668bce4e-ef66-4e5d-98f9-a7e4e8fdbf68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/methods/queryGidFlowStatics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/methods/queryPersonalRecords.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/index.js" afterPath="$PROJECT_DIR$/api/v1/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router/user.js" afterPath="$PROJECT_DIR$/router/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/agg-utils.js" afterPath="$PROJECT_DIR$/util/agg-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/base.js" afterPath="$PROJECT_DIR$/util/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/methods/queryAbnormalStats.js" afterPath="$PROJECT_DIR$/util/methods/queryAbnormalStats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/methods/queryTreeMap.js" afterPath="$PROJECT_DIR$/util/methods/queryTreeMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/params.js" afterPath="$PROJECT_DIR$/util/params.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5851918">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="queryAbnormalStats.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/methods/queryAbnormalStats.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2988">
+                  <caret line="88" column="19" lean-forward="false" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="queryGidFlowStatics.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/methods/queryGidFlowStatics.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4428">
+                  <caret line="124" column="23" lean-forward="false" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/api/v1/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2988">
+                  <caret line="113" column="34" lean-forward="false" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#70#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="agg-utils.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/agg-utils.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1188">
+                  <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="params.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/util/params.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="139" column="23" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#47#770#0" expanded="false" />
+                    <element signature="e#881#1027#0" expanded="false" />
+                    <element signature="e#5115#5594#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="queryTreeMap.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/methods/queryTreeMap.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/base.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5220">
+                  <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/router/user.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="504">
+                  <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="queryTripFlow.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/util/methods/queryTripFlow.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="864">
+                  <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="queryGidFlowStatics.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/util/methods/queryGidFlowStatics.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jsonpTransfer</find>
+      <find>abnormalNameList</find>
+      <find>queryAbnormalStats</find>
+      <find>queryODTripFlow</find>
+      <find>cols</find>
+      <find>initODTripFlowParams</find>
+      <find>initFamousEnterpriseParams</find>
+      <find>queryamous</find>
+      <find>queryFamousEnterprise</find>
+      <find>PyInputPath</find>
+      <find>no da</find>
+      <find>initGidFlowStaticsParams</find>
+      <find>queryGidFlowStatics</find>
+      <find>no</find>
+      <find>abno</find>
+      <find>initPersonalRecordsParams</find>
+      <find>queryPersonalReocrds</find>
+      <find>hcc</find>
+      <find>800</find>
+      <find>optCSV</find>
+      <find>gid</find>
+      <find>stay</find>
+      <find>TotalResFilePath</find>
+      <find>static</find>
+      <find>file</find>
+      <find>jumplength</find>
+      <find>gidFlowStatics</find>
+      <find>bj-byhour-s</find>
+      <find>gidflow</find>
+      <find>jiang</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/util/methods/queryODTripFlow.js" />
+        <option value="$PROJECT_DIR$/public/assets/famousEnterprise.json" />
+        <option value="$PROJECT_DIR$/util/methods/queryFamousEnterprise.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/router/user.js" />
+        <option value="$PROJECT_DIR$/util/agg-utils.js" />
+        <option value="$PROJECT_DIR$/api/v1/index.js" />
+        <option value="$PROJECT_DIR$/util/methods/queryPersonalRecords.js" />
+        <option value="$PROJECT_DIR$/util/methods/queryTreeMap.js" />
+        <option value="$PROJECT_DIR$/util/methods/queryAbnormalStats.js" />
+        <option value="$PROJECT_DIR$/util/base.js" />
+        <option value="$PROJECT_DIR$/util/params.js" />
+        <option value="$PROJECT_DIR$/util/methods/queryGidFlowStatics.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="43" />
+    <option name="y" value="60" />
+    <option name="width" value="1692" />
+    <option name="height" value="907" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple-server-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple-server-master" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="methods" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\WebstormProjects\simple-server-master\public\assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="668bce4e-ef66-4e5d-98f9-a7e4e8fdbf68" name="Default" comment="" />
+      <created>1524122482695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524122482695</updated>
+      <workItem from="1524122484319" duration="636000" />
+      <workItem from="1526863424350" duration="672000" />
+      <workItem from="1527499465059" duration="2171000" />
+      <workItem from="1527555758440" duration="1471000" />
+      <workItem from="1527569782603" duration="2002000" />
+      <workItem from="1528786968859" duration="1660000" />
+      <workItem from="1532855322937" duration="599000" />
+      <workItem from="1534473474662" duration="25000" />
+      <workItem from="1534653012690" duration="17000" />
+      <workItem from="1540283951658" duration="2932000" />
+      <workItem from="1540776658718" duration="10427000" />
+      <workItem from="1540968436148" duration="8824000" />
+      <workItem from="1540979790444" duration="1861000" />
+      <workItem from="1541664146534" duration="1430000" />
+      <workItem from="1542594859142" duration="736000" />
+      <workItem from="1542627772370" duration="762000" />
+      <workItem from="1542787118088" duration="624000" />
+      <workItem from="1543044456583" duration="1933000" />
+      <workItem from="1543232684123" duration="1257000" />
+      <workItem from="1543369054608" duration="668000" />
+      <workItem from="1543374876651" duration="11477000" />
+      <workItem from="1543545159697" duration="6814000" />
+      <workItem from="1543651530848" duration="2768000" />
+      <workItem from="1543721491256" duration="3171000" />
+      <workItem from="1543836571253" duration="4381000" />
+      <workItem from="1543918791987" duration="9484000" />
+      <workItem from="1544057398470" duration="9881000" />
+      <workItem from="1544151488052" duration="5872000" />
+      <workItem from="1544165762960" duration="1325000" />
+      <workItem from="1544263585975" duration="11577000" />
+      <workItem from="1544496944851" duration="6143000" />
+      <workItem from="1546585751384" duration="1133000" />
+      <workItem from="1546858508321" duration="2449000" />
+      <workItem from="1546927510609" duration="6890000" />
+      <workItem from="1547090950281" duration="11609000" />
+      <workItem from="1547448558769" duration="2408000" />
+      <workItem from="1547526527683" duration="2415000" />
+      <workItem from="1547788892527" duration="574000" />
+      <workItem from="1547795253830" duration="2974000" />
+      <workItem from="1547957929995" duration="677000" />
+      <workItem from="1548231967145" duration="4215000" />
+      <workItem from="1548295618321" duration="5148000" />
+      <workItem from="1548411714391" duration="775000" />
+      <workItem from="1550482769743" duration="1815000" />
+      <workItem from="1550558380925" duration="1513000" />
+      <workItem from="1550667020342" duration="2219000" />
+      <workItem from="1550819501737" duration="233000" />
+      <workItem from="1550821973429" duration="731000" />
+      <workItem from="1551097205971" duration="624000" />
+      <workItem from="1551246968864" duration="676000" />
+      <workItem from="1551339109739" duration="2920000" />
+      <workItem from="1551792506754" duration="1219000" />
+      <workItem from="1551949915425" duration="43000" />
+      <workItem from="1551962249568" duration="663000" />
+      <workItem from="1552097615401" duration="2474000" />
+      <workItem from="1552191536304" duration="5340000" />
+      <workItem from="1552371054517" duration="2171000" />
+      <workItem from="1552539384082" duration="1204000" />
+      <workItem from="1552635944734" duration="661000" />
+      <workItem from="1552653637937" duration="2931000" />
+      <workItem from="1552913381056" duration="3968000" />
+      <workItem from="1553404690494" duration="2235000" />
+      <workItem from="1553673245427" duration="26000" />
+      <workItem from="1553674150660" duration="659000" />
+      <workItem from="1553676211438" duration="694000" />
+      <workItem from="1553875138903" duration="3737000" />
+      <workItem from="1557751344231" duration="1881000" />
+      <workItem from="1559394060893" duration="12000" />
+      <workItem from="1559394116590" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="198591000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="43" y="60" width="1692" height="907" extended-state="0" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12990196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21688312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../simple-server/router/user.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/public/js/demo.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/api/v1/index.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryTripFlow.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/params.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/conf/sql.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/base.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/index.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/api/v1/index.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/index.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/conf/sql.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/index.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/router/root.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/base.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/public/js/demo.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryClusterDots.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryTreeMap.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryTripFlow.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/test.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryODTripFlow.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/public/assets/famousEnterprise.json" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/router/user.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/api/v1/index.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/params.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/agg-utils.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryAbnormalStats.js" />
+    <entry file="file://$PROJECT_DIR$/../simple-server/util/methods/queryFamousEnterprise.js" />
+    <entry file="file://$PROJECT_DIR$/util/methods/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/sql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/format.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryClusterDots.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryODTripFlow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/agg-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryFamousEnterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryPersonalRecords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryTripFlow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5220">
+          <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryTreeMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2988">
+          <caret line="113" column="34" lean-forward="false" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryAbnormalStats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2988">
+          <caret line="88" column="19" lean-forward="false" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/methods/queryGidFlowStatics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/params.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="139" column="23" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+          <folding>
+            <element signature="e#47#770#0" expanded="false" />
+            <element signature="e#881#1027#0" expanded="false" />
+            <element signature="e#5115#5594#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

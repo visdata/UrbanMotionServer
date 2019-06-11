@@ -46,7 +46,7 @@ npm run dev
 
 * 名称：异常检测网格统计数据
 * 格式： `/api/abnormalStats?hourID=9&timeSegID=9&type=flow`；
-* 参数说明：`type` 取值可选如下四个 key 值之一​：flow, record, ano1, ano2，`hourID` 表示小时编号，`timeSegID` 表示总时段上编号；
+* 参数说明：`type` 取值可选如下四个 key 值之一​：flow, record, stay，`hourID` 表示小时编号，`timeSegID` 表示总时段上编号；
 * 状态：在线；
 
 #### 2. Angle Cluster Stats
@@ -59,7 +59,7 @@ npm run dev
 #### 3. Tree Map Query
 
 * 名称：TreeMap 结果查询
-* 格式： `/api/treeMap?treeNumRate=0.01&searchAngle=60&seedStrength=0.1&treeWidth=1&spaceInterval=200&lineDirection=from&timeSegID=9&jumpLength=3&seedUnit=basic&gridDirNum=-1&delta=-1&maxDistance=9999`；
+* 格式： `/api/treeMap?treeNumRate=0.03&searchAngle=30&seedStrength=0.1&treeWidth=1&spaceInterval=200&seedUnit=basic&jumpLen=3&gridDirNum=-1&timeSegID=9&delta=-1&speedToShow=all&maxDistance=9999&city=TJ`；
 * 参数说明：暂无；
 * 状态：在线；
 

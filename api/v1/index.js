@@ -99,7 +99,7 @@ const treeMapMM = async (ctx, next) => {
 
     // console.log("queryParams.seedStrength: ", queryParams.seedStrength)
     // let res = ifResExist ? JSON.parse(fs.readFileSync(file)) : await queryTreeMap(queryParams);
-    let res = await queryTreeMapMM(queryParams);
+    let res = await queryTreeMap(queryParams);
 
     return ctx.body = jsonpTransfer(res, params);
 }

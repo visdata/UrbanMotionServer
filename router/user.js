@@ -10,6 +10,7 @@ router
     .get('/clusterDots', api.clusterDots)
     .get('/tripFlow', api.tripFlow)
     .get('/treeMap', api.treeMap)
+    .get('/treeMapMM', api.treeMapMM)
     .get('/angleClusterStats', api.angleClusterStats)
     .get('/abnormalStats', api.abnormalStats)
     .get('/gidFlowStatics', api.gidFlowStatics)

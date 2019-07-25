@@ -21,6 +21,7 @@ import {
 import {
     initAngleClusterParams,
     initTreeMapParams,
+    initTreeMapParamsMM,
     initAbnormalStatsParams,
     initODTripFlowParams,
     initFamousEnterpriseParams,
@@ -83,6 +84,22 @@ const treeMap = async (ctx, next) => {
     // console.log("queryParams.seedStrength: ", queryParams.seedStrength)
     // let res = ifResExist ? JSON.parse(fs.readFileSync(file)) : await queryTreeMap(queryParams);
     let res = await queryTreeMap(queryParams);
+
+    return ctx.body = jsonpTransfer(res, params);
+}
+
+const treeMapMM = async (ctx, next) => {
+    let params = ctx.query,
+        cbFunc = params.callback;
+
+    const queryParams = initTreeMapParamsMM(params);
+
+    let file = path.resolve(queryParams.ResFilePath, queryParams.ResFileName),
+        ifResExist = fs.existsSync(file);
+
+    // console.log("queryParams.seedStrength: ", queryParams.seedStrength)
+    // let res = ifResExist ? JSON.parse(fs.readFileSync(file)) : await queryTreeMap(queryParams);
+    let res = await queryTreeMapMM(queryParams);
 
     return ctx.body = jsonpTransfer(res, params);
 }
@@ -153,6 +170,7 @@ export {
     clusterDots,
     tripFlow,
     treeMap,
+    treeMapMM,
     angleClusterStats,
     abnormalStats,
     gidFlowStatics,

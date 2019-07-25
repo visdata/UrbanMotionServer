@@ -144,6 +144,94 @@ export const initTreeMapParams = (queryParams) => {
 }
 
 /**
+ * treeMap 传输参数初始化处�?
+ * @param {*} queryParams 
+ */
+export const initTreeMapParamsMM = (queryParams) => {
+    let res = {}
+
+    res.timeSegID = queryParams.timeSegID ? queryParams.timeSegID : '9';
+    res.treeNumRate = queryParams.treeNumRate ? NumberToDecimal2(queryParams.treeNumRate) : '0.10';
+    res.searchAngle = queryParams.searchAngle ? queryParams.searchAngle : 60;
+    res.seedStrength = queryParams.seedStrength ? NumberToDecimal2(queryParams.seedStrength) : '0.10';
+    res.treeWidth = queryParams.treeWidth ? queryParams.treeWidth : 1;
+    res.spaceInterval = queryParams.spaceInterval ? queryParams.spaceInterval : 200;
+    res.jumpLength = queryParams.jumpLength ? queryParams.jumpLength : 3;
+    //res.jumpLength = res.treeWidth > 1 ? 1 : res.jumpLength;
+
+    res.lineDirection = 'from'; // queryParams.lineDirection ? queryParams.lineDirection : 'from';
+    res.seedUnit = queryParams.seedUnit ? queryParams.seedUnit : 'basic';
+    res.gridDirNum = queryParams.gridDirNum ? queryParams.gridDirNum : -1;
+    res.speedToShow = queryParams.speedToShow ? queryParams.speedToShow: 'all';
+    res.gridSize = queryParams.gridSize ? queryParams.gridSize : 500
+    res.city = queryParams.city ? queryParams.city : 'BJ';
+    // console.log(queryParams.seedStrength);
+    const FileName = `tmres-angle-${res.timeSegID}_${res.treeNumRate}_${res.searchAngle}_${res.seedStrength}_${res.treeWidth}_${res.jumpLength}_${res.seedUnit}_${res.gridDirNum}`;
+    //let FilePath = `/datahouse/tripflow/${res.spaceInterval}/bj-byhour-res`;
+    //let FilePath = `/datahouse/tripflow/weekendTest/bj-byhour-res`;
+    //let FilePath = `/datahouse/tripflow/withoutFromTo/bj-byhour-res`;
+    let FilePath = `/datahouse/tripflow/2019-30-800-BJ/bj-byhour-res-mapped`;
+    if (res.city === 'TJ') {
+        FilePath = `/datahouse/tripflow/2019-30-800-TJ/tj-byhour-res-mapped`;
+    }
+    if (res.city === 'TS') {
+        FilePath = `/datahouse/tripflow/2019-30-800-TS/ts-byhour-res-mapped`;
+    }
+    //let FilePath = `/datahouse/tripflow/toCorrect/bj-byhour-res`;
+
+
+    //res.PyInputPath = `/datahoause/tripflow/${res.spaceInterval}`;
+    //res.PyInputPath = `/datahouse/tripflow/weekendTest`;
+    //res.PyInputPath = `/datahouse/tripflow/withoutFromTo`;
+    res.PyInputPath = `/datahouse/tripflow/2019-30-800-BJ`;
+    if (res.city === 'TJ') {
+        res.PyInputPath = `/datahouse/tripflow/2019-30-800-TJ`;
+    }
+    if (res.city === 'TS') {
+        res.PyInputPath = `/datahouse/tripflow/2019-30-800-TS`;
+    }
+    //res.PyInputPath = `/datahouse/tripflow/toCorrect`;
+
+    if (res.gridSize!= 500){
+        FilePath = `/datahouse/hcc/grid-${res.gridSize}/bj-byhour-res`;
+        res.PyInputPath = `/datahouse/hcc/grid-${res.gridSize}`;
+    }
+    // if(res.gridSize == 100){
+    //     FilePath = `/datahouse/hcc/grid-100/bj-byhour-res`;
+    //     res.PyInputPath = `/datahouse/hcc/grid-100`;
+    // }
+    // if(res.gridSize == 250){
+    //     FilePath = `/datahouse/hcc/grid-250/bj-byhour-res`;
+    //     res.PyInputPath = `/datahouse/hcc/grid-250`;
+    // }
+    // if(res.gridSize == 1000){
+    //     FilePath = `/datahouse/hcc/grid-1000/bj-byhour-res`;
+    //     res.PyInputPath = `/datahouse/hcc/grid-1000`;
+    // }
+    // if(res.gridSize == 2000){
+    //     FilePath = `/datahouse/hcc/grid-2000/bj-byhour-res`;
+    //     res.PyInputPath = `/datahouse/hcc/grid-2000`;
+    // }
+
+
+
+    // add
+    if(res.speedToShow !== 'all'){
+        FilePath = `/datahouse/hcc/${res.spaceInterval}/byspeedres/${res.speedToShow}/bj-byhour-res`;
+        res.PyInputPath = `/datahouse/hcc/${res.spaceInterval}/byspeedres/${res.speedToShow}`
+    }
+    res.ResFileName = FileName;
+    res.ResFilePath = FilePath;
+    //res.PyFilePath = '/home/taojiang/git/statePrediction';
+    res.PyFilePath = '/home/shil/UrbanMotionProject/UrbanMotionAnalysis';
+    res.PyFileName = 'treeMapCalMM.py';
+    res.delta = queryParams.delta ? queryParams.delta : -1.0;
+    res.maxDistance = queryParams.maxDistance ? queryParams.maxDistance : 9999;
+
+    return res;
+}
+
+/**
  * 初始化角度聚类结果查询参�?
  * @param {*} params 
  */

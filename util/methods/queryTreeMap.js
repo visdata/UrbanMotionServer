@@ -13,7 +13,7 @@ export const queryTreeMap = async (params) => {
         spaceInterval = params.spaceInterval,
         lineDirection = params.lineDirection,
         timeSegID = params.timeSegID,
-        jumpLength = params.jumpLength,
+        jumpLen = params.jumpLen,
         seedUnit = params.seedUnit,
         gridDirNum = params.gridDirNum,
         delta = params.delta,
@@ -26,7 +26,7 @@ export const queryTreeMap = async (params) => {
         // pythonPath: 'path/to/python',
         pythonOptions: ['-u'], // get print results in real-time
         scriptPath: PyFilePath,
-        args: [PyInputPath, PyInputPath, timeSegID, treeNumRate, searchAngle, seedStrength, treeWidth, jumpLength, seedUnit, gridDirNum, delta, maxDistance, gridSize, city]
+        args: [PyInputPath, PyInputPath, timeSegID, treeNumRate, searchAngle, seedStrength, treeWidth, jumpLen, seedUnit, gridDirNum, delta, maxDistance, gridSize, city]
     };
 
     //console.log(params)

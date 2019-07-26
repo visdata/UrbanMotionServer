@@ -68,8 +68,8 @@ export const initTreeMapParams = (queryParams) => {
     res.seedStrength = queryParams.seedStrength ? NumberToDecimal2(queryParams.seedStrength) : '0.10';
     res.treeWidth = queryParams.treeWidth ? queryParams.treeWidth : 1;
     res.spaceInterval = queryParams.spaceInterval ? queryParams.spaceInterval : 200;
-    res.jumpLength = queryParams.jumpLength ? queryParams.jumpLength : 3;
-    //res.jumpLength = res.treeWidth > 1 ? 1 : res.jumpLength;
+    res.jumpLen = queryParams.jumpLen ? queryParams.jumpLen : 3;
+    //res.jumpLen = res.treeWidth > 1 ? 1 : res.jumpLen;
 
     res.lineDirection = 'from'; // queryParams.lineDirection ? queryParams.lineDirection : 'from';
     res.seedUnit = queryParams.seedUnit ? queryParams.seedUnit : 'basic';
@@ -78,7 +78,7 @@ export const initTreeMapParams = (queryParams) => {
     res.gridSize = queryParams.gridSize ? queryParams.gridSize : 500
     res.city = queryParams.city ? queryParams.city : 'BJ';
     // console.log(queryParams.seedStrength);
-    const FileName = `tmres-angle-${res.timeSegID}_${res.treeNumRate}_${res.searchAngle}_${res.seedStrength}_${res.treeWidth}_${res.jumpLength}_${res.seedUnit}_${res.gridDirNum}`;
+    const FileName = `tmres-angle-${res.timeSegID}_${res.treeNumRate}_${res.searchAngle}_${res.seedStrength}_${res.treeWidth}_${res.jumpLen}_${res.seedUnit}_${res.gridDirNum}`;
     //let FilePath = `/datahouse/tripflow/${res.spaceInterval}/bj-byhour-res`;
     //let FilePath = `/datahouse/tripflow/weekendTest/bj-byhour-res`;
     //let FilePath = `/datahouse/tripflow/withoutFromTo/bj-byhour-res`;
@@ -156,8 +156,8 @@ export const initTreeMapParamsMM = (queryParams) => {
     res.seedStrength = queryParams.seedStrength ? NumberToDecimal2(queryParams.seedStrength) : '0.10';
     res.treeWidth = queryParams.treeWidth ? queryParams.treeWidth : 1;
     res.spaceInterval = queryParams.spaceInterval ? queryParams.spaceInterval : 200;
-    res.jumpLength = queryParams.jumpLength ? queryParams.jumpLength : 3;
-    //res.jumpLength = res.treeWidth > 1 ? 1 : res.jumpLength;
+    res.jumpLen = queryParams.jumpLen ? queryParams.jumpLen : 3;
+    //res.jumpLen = res.treeWidth > 1 ? 1 : res.jumpLen;
 
     res.lineDirection = 'from'; // queryParams.lineDirection ? queryParams.lineDirection : 'from';
     res.seedUnit = queryParams.seedUnit ? queryParams.seedUnit : 'basic';
@@ -166,7 +166,7 @@ export const initTreeMapParamsMM = (queryParams) => {
     res.gridSize = queryParams.gridSize ? queryParams.gridSize : 500
     res.city = queryParams.city ? queryParams.city : 'BJ';
     // console.log(queryParams.seedStrength);
-    const FileName = `tmres-angle-${res.timeSegID}_${res.treeNumRate}_${res.searchAngle}_${res.seedStrength}_${res.treeWidth}_${res.jumpLength}_${res.seedUnit}_${res.gridDirNum}`;
+    const FileName = `tmres-angle-${res.timeSegID}_${res.treeNumRate}_${res.searchAngle}_${res.seedStrength}_${res.treeWidth}_${res.jumpLen}_${res.seedUnit}_${res.gridDirNum}`;
     //let FilePath = `/datahouse/tripflow/${res.spaceInterval}/bj-byhour-res`;
     //let FilePath = `/datahouse/tripflow/weekendTest/bj-byhour-res`;
     //let FilePath = `/datahouse/tripflow/withoutFromTo/bj-byhour-res`;

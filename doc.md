@@ -38,7 +38,7 @@ npm run dev
 └── [4.0K]  views
     └── [2.2K]  home.ejs
 ```
-### 现有接口说明
+### 现有接口说明 Description of existing interfaces
 
 现有接口对应路由存储于 `router/user.js` 中：
 
